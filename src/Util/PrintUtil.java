@@ -23,6 +23,6 @@ public class PrintUtil {
         System.out.print(e);
     }
     public static void priintall(Object e) {
-        System.out.print(e);
+        System.out.println(e);
     }
 }

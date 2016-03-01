@@ -1,4 +1,4 @@
-package thridOperate;
+package thridOperate.operate;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -17,7 +17,7 @@ public class TestOperate {
         service.execute(waterCar);
         service.execute(dryCar);
         TimeUnit.SECONDS.sleep(5);
-        service.shutdown();
+        service.shutdownNow();
 
 
     }
